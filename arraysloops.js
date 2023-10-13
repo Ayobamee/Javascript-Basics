@@ -11,6 +11,7 @@ let studentNames = ["Susan", "Shehu", "Seyi"];
 //   console.log(studentName);
 // });
 
+//for loops
 for (let i = 0; i < studentNames.length; i++) {
   console.log(studentNames[i]);
 }
