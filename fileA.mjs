@@ -7,11 +7,7 @@ class Language {
   }
 }
 
-// Creating an instance of the class
-// const myLanguage = new Language('JavaScript', 'Programming Language', 1995);
-
 // Exporting the instance
-// export default myLanguage;
 
 export const language = new Language(
   "JavaScript",
