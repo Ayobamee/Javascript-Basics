@@ -12,6 +12,26 @@ const printGenderMessage = (gender) => {
   }
 };
 
+/ Assuming currentSeason is set to the current season
+// For example: 'summer', 'winter', 'autumn', 'spring'
+const currentSeason = 'a' // This should be dynamically set in a real scenario
+
+if (currentSeason === 'summer') {
+  console.log('It is hot and sunny. Perfect for a beach day!')
+} else if (currentSeason === 'winter') {
+  console.log('It is cold and snowy. Great weather for skiing!')
+} else if (currentSeason === 'autumn') {
+  console.log("The leaves are falling. It's getting cooler.")
+} else if (currentSeason === 'spring') {
+  console.log('Flowers are blooming. It is pleasantly warm.')
+} else {
+  console.log('Unknown season. Check the currentSeason variable!')
+}
+
+/*
+This code snippet checks the value of currentSeason and prints a message appropriate for the weather typically associated with that season. If the season is unknown or not covered by the conditions, it defaults to printing an error message advising to check the currentSeason variable. You can expand this example by including more detailed weather descriptions or more complex conditions based on additional variables (like temperature or humidity).
+*/
+
 /*
 Explanation:
 if (gender === male) { ... }: This block checks if gender is strictly equal to male. If true, it logs 'The gender is Male.' to the console.
